@@ -2,6 +2,7 @@ package ru.job4j.array;
 import java.io.*;
 import java.util.*;
 public class Main {
+    @SuppressWarnings({"checkstyle:WhitespaceAround", "checkstyle:LeftCurly", "checkstyle:RightCurly"})
     public static void main(String[] args) {
         System.out.println("Hello, world!");
         var input = "aab";
@@ -22,10 +23,9 @@ public class Main {
                     ++count;
                 }
             }
-            if (count = =1) {
+            if (count == 1) {
                 builder.append(item);
-            }
-            else {
+            } else {
                 builder.append(item + count);
             }
             count = 0;
