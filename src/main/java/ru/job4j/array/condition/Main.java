@@ -1,4 +1,4 @@
-package ru.job4j.array;
+package ru.job4j.array.condition;
 import java.io.*;
 import java.util.*;
 public class Main {
