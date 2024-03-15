@@ -1,4 +1,4 @@
-package ru.job4j.calculator;
+package ru.job4j.array.ru.job4j.condition;
 
 public class Fit {
 
@@ -17,8 +17,7 @@ public class Fit {
         double man = Fit.manWeight(height);
         System.out.println("Man 174 is " + man);
         short size = 143;
-        double woman = Fit.manWeight(size);
+        double woman = Fit.womanWeight(size);
         System.out.println("Woman 143 is " + woman);
     }
-
 }
