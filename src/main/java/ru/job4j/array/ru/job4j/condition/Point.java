@@ -1,7 +1,6 @@
 package ru.job4j.array.ru.job4j.condition;
 
 public class Point {
-    @SuppressWarnings("checkstyle:WhitespaceAfter")
     public static double distance(int x1, int y1, int x2, int y2) {
         double baby = x2 - x1;
         double size = y2 - y1;
